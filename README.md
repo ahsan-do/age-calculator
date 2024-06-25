@@ -111,5 +111,5 @@ Contributions are welcome! Please open an issue or submit a pull request.
 This project is licensed under the MIT License. See the LICENSE file for details.
 
 ## Contact
-For any questions or comments, please reach out to [your-email@example.com].
+For any questions or comments, please reach out to do.a.naveed@gmail.com.
 
