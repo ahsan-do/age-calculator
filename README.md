@@ -48,19 +48,23 @@ Enter your age: 25
 Your age in months: 304
 Your age in weeks: 1308
 Your age in days: 9166
-
-##Code Explanation
+```
+## Code Explanation
 **Functions**
 **is_leap_year(year):** Checks if a given year is a leap year.
-
+```sh
 def is_leap_year(year):
     return year % 4 == 0 and (year % 100 != 0 or year % 400 == 0)
+```
 
 **count_leap_years(start_year, end_year):** Counts the number of leap years between start_year and end_year inclusive.
+```sh
 def count_leap_years(start_year, end_year):
     return sum(1 for year in range(start_year, end_year + 1) if is_leap_year(year))
+```
 
 **age_to_months_weeks_days(age, leap_years_count):** Converts age in years to months, weeks, and days, including leap years.
+```sh
 def age_to_months_weeks_days(age, leap_years_count):
     days_in_regular_year = 365
     days_in_leap_year = 366
@@ -71,9 +75,11 @@ def age_to_months_weeks_days(age, leap_years_count):
     days = days_in_years
     
     return months, weeks, days
+```
 
 **Main Function**
 **main():** Handles input, calculates year of birth, counts leap years, and converts age to months, weeks, and days.
+```sh
 def main():
     # Get the current year
     current_year = datetime.now().year
@@ -96,13 +102,14 @@ def main():
 
 if __name__ == "__main__":
     main()
+```
 
-##Contributing
+## Contributing
 Contributions are welcome! Please open an issue or submit a pull request.
 
-##License
+## License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
-##Contact
+## Contact
 For any questions or comments, please reach out to [your-email@example.com].
 
